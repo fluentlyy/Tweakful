@@ -58,6 +58,9 @@ body {
   justify-content: space-between;
   align-items: flex-start;
 
+  &__img {
+  }
+
   &__title {
     width: 635px;
     color: var(--base-text-on-dark, #fff);
@@ -294,8 +297,10 @@ body {
     align-items: center;
     gap: 60px;
   }
-
-  .main__section-3 {
+  .section-1__img {
+    display: none;
+  }
+  .main__sec .main__section-3 {
     padding: 20px;
   }
   .section-3__group {
